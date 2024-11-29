@@ -10,6 +10,5 @@ sudo service fail2ban stop
 sudo dpkg -i fail2ban.deb
 sudo apt -f install
 
-
 sudo systemctl start fail2ban
 sudo systemctl status fail2ban
