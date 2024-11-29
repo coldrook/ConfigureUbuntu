@@ -9,6 +9,7 @@ dpkg -I fail2ban.deb
 sudo service fail2ban stop
 sudo dpkg -i fail2ban.deb
 sudo apt -f install
-c
+
+
 sudo systemctl start fail2ban
 sudo systemctl status fail2ban
