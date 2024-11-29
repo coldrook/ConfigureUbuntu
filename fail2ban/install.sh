@@ -8,6 +8,7 @@ gpg --verify fail2ban.deb.asc fail2ban.deb
 dpkg -I fail2ban.deb
 sudo service fail2ban stop
 sudo dpkg -i fail2ban.deb
+
 sudo apt -f install
 sudo systemctl start fail2ban
 sudo systemctl status fail2ban
