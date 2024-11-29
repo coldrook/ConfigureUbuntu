@@ -12,4 +12,3 @@ sudo apt -f install
 
 sudo systemctl start fail2ban
 sudo systemctl status fail2ban
-
